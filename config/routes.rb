@@ -1,6 +1,8 @@
 Pinteresting::Application.routes.draw do
   get "op" => "pages#otherpage"
   get "pages/otherpage"
+  get "about" => "pages#about"
+  get "pages/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

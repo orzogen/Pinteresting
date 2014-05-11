@@ -11,12 +11,3 @@
  *= require_self
  *= require_tree .
  */
-
-body{
-	background: lightblue;
-	font-family: helvetica;
-	padding: 20px;
-}
-body nav{
-	margin-bottom: 20px;
-}

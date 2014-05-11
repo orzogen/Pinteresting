@@ -9,4 +9,7 @@ class PagesController < ApplicationController
   		@text += " " + params[:text]
   	end
   end
+  
+  def aboutpage
+  end
 end
