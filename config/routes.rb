@@ -1,4 +1,5 @@
 Pinteresting::Application.routes.draw do
+  devise_for :users
   get "op" => "pages#otherpage"
   get "pages/otherpage"
   get "about" => "pages#about"

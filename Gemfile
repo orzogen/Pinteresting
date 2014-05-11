@@ -30,6 +30,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+
+gem 'devise'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
@@ -53,5 +56,4 @@ end
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'thin'
 gem 'bootstrap-sass'
