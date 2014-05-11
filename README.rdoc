@@ -1,28 +1,5 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+{<img src="https://travis-ci.org/orzogen/Pinteresting.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/orzogen/Pinteresting]
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is a sample application I built while taking the {One Month Rails}[https://onemonthrails.com/] course by Mattan Griffel.
