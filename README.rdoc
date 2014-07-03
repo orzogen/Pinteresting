@@ -4,3 +4,12 @@
 {<img src="https://codeclimate.com/github/orzogen/Pinteresting.png" />}[https://codeclimate.com/github/orzogen/Pinteresting]
 
 This is a sample application I built while taking the {One Month Rails}[https://onemonthrails.com/] course by Mattan Griffel.
+
+This services relies on:
+
+- Travis
+- Codeclimage
+- NewRelic
+- Inch CI
+- Gemnasium
+- Keen

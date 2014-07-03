@@ -1,0 +1,14 @@
+<h1 class="center">Listing pins</h1>
+<%= link_to 'New Pin', new_pin_path, class: "new-pin-link center space-bottom" %>
+<div class="pin-container center">
+  <% @pins.each do |pin| %>
+    <div class="pin-card center space-bottom">
+      <div class="pin-description"><%= pin.description.capitalize %></div>
+      <div class="pin-links">
+        <%= link_to 'Show', pin %></td>
+        <%= link_to 'Edit', edit_pin_path(pin) %></td>
+        <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
+    </div>
+  <% end %>
+</div>
